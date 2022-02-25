@@ -156,7 +156,6 @@ body {
     transform: scale(1);
 }
 
-.ingredients-text li,
 .ingredients-text input,
 .steps li {
     font-size: 18px;
