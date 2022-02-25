@@ -85,6 +85,10 @@ body {
 
 .ingredients-section {
     display: flex;
+}
+
+.ingredients-section,
+.steps {
     color: white;
     margin-right: -24px;
 }
@@ -95,19 +99,39 @@ body {
 }
 
 .ingredients-text {
-    background: rgb(73, 7, 7);
+    background-color: rgb(73, 7, 7);
     flex-grow: 1;
+}
+
+.ingredients-text,
+.steps {
     padding: 24px;
+}
+
+.ingredients-text,
+.ingredients-text hr,
+.steps,
+.steps hr {
     margin-top: -40px;
 }
 
-.ingredients-text h2 {
+.ingredients-text h2,
+.steps h2 {
     font-size: 64px;
     font-style: italic;
     font-weight: 100;
 }
 
-.ingredients-text li {
+.ingredients-text li,
+.steps li {
     font-size: 18px;
     margin: 10px;
+}
+
+.steps {
+    background-color: rgb(44, 45, 46);
+}
+
+.steps li {
+    line-height: 32px;
 }
