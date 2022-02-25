@@ -1,0 +1,50 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero-section {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
+    margin: -10px;
+}
+
+.hero-section.steak {
+    background-image: url("../img/pexels-kasumi-loffler-3535383.jpg");
+}
+
+.hero-section.cookies {
+    background-image: url("../img/pexels-nerfee-mirandilla-3186743.jpg");
+}
+
+.hero-section.waffles {
+    background-image: url("../img/pexels-brigitte-tohm-131056.jpg" );
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .5);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.overlay h1 {
+    text-transform: uppercase;
+    font-size: 128px;
+    letter-spacing: 65px;
+    margin: -10px;
+}
+
+.overlay p {
+    text-transform: lowercase;
+    font-size: 20px;
+}
