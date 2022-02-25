@@ -6,7 +6,7 @@ body {
     display: flex;
     justify-content: space-between;
     font-size: 18px;
-    padding: 24px;
+    padding: 24px 48px;
 }
 
 .nav-bar ul {
@@ -90,7 +90,7 @@ body {
 .ingredients-section,
 .steps {
     color: white;
-    margin-right: -24px;
+    margin: 0 -24px;
 }
 
 .ingredients-section img {
@@ -101,11 +101,11 @@ body {
 .ingredients-text {
     background-color: rgb(73, 7, 7);
     flex-grow: 1;
+    padding: 24px;
 }
 
-.ingredients-text,
 .steps {
-    padding: 24px;
+    padding: 24px 48px;
 }
 
 .ingredients-text,
