@@ -1,3 +1,5 @@
+This recipe website can be visited [here](https://aprodiga.github.io/odin-recipes/).
+
 ## **Project Description**
 This recipe website was made following [The Odin Project's Foundations curriculum](https://www.theodinproject.com/paths/foundations/courses/foundations) to further cement and apply the knowledge of HTML, CSS, and Flexbox.
 
